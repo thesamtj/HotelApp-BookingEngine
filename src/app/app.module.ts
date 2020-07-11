@@ -15,6 +15,7 @@ import { AuthComponent } from './auth/auth.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { RestaurantComponent } from './food-beverage/restaurant/restaurant.component';
 import { BarsComponent } from './food-beverage/bars/bars.component';
+import { WellnessAndSpaComponent } from './lifestyle/wellness-and-spa/wellness-and-spa.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BarsComponent } from './food-beverage/bars/bars.component';
     AuthComponent,
     RoomsComponent,
     RestaurantComponent,
-    BarsComponent
+    BarsComponent,
+    WellnessAndSpaComponent
   ],
   imports: [
     BrowserModule,
