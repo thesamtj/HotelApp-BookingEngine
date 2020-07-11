@@ -18,6 +18,7 @@ import { BarsComponent } from './food-beverage/bars/bars.component';
 import { WellnessAndSpaComponent } from './lifestyle/wellness-and-spa/wellness-and-spa.component';
 import { ResortActivitiesComponent } from './lifestyle/resort-activities/resort-activities.component';
 import { ExperiencesComponent } from './lifestyle/experiences/experiences.component';
+import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ExperiencesComponent } from './lifestyle/experiences/experiences.compon
     BarsComponent,
     WellnessAndSpaComponent,
     ResortActivitiesComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    ExcursionsComponent
   ],
   imports: [
     BrowserModule,
