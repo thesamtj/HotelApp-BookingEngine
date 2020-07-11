@@ -16,6 +16,7 @@ import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { RestaurantComponent } from './food-beverage/restaurant/restaurant.component';
 import { BarsComponent } from './food-beverage/bars/bars.component';
 import { WellnessAndSpaComponent } from './lifestyle/wellness-and-spa/wellness-and-spa.component';
+import { ResortActivitiesComponent } from './lifestyle/resort-activities/resort-activities.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { WellnessAndSpaComponent } from './lifestyle/wellness-and-spa/wellness-a
     RoomsComponent,
     RestaurantComponent,
     BarsComponent,
-    WellnessAndSpaComponent
+    WellnessAndSpaComponent,
+    ResortActivitiesComponent
   ],
   imports: [
     BrowserModule,
