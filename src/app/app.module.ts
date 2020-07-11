@@ -11,6 +11,7 @@ import { LifestyleComponent } from './lifestyle/lifestyle.component';
 import { WeddingsComponent } from './weddings/weddings.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { OffersComponent } from './offers/offers.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OffersComponent } from './offers/offers.component';
     LifestyleComponent,
     WeddingsComponent,
     CelebrationsComponent,
-    OffersComponent
+    OffersComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
