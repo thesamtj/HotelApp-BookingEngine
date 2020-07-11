@@ -8,13 +8,15 @@ import { MaterialModule } from './material-module';
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { WeddingsComponent } from './weddings/weddings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccomodationComponent,
     FoodBeverageComponent,
-    LifestyleComponent
+    LifestyleComponent,
+    WeddingsComponent
   ],
   imports: [
     BrowserModule,
