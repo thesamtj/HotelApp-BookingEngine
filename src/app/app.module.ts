@@ -10,6 +10,7 @@ import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
 import { WeddingsComponent } from './weddings/weddings.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
+import { OffersComponent } from './offers/offers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CelebrationsComponent } from './celebrations/celebrations.component';
     FoodBeverageComponent,
     LifestyleComponent,
     WeddingsComponent,
-    CelebrationsComponent
+    CelebrationsComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,
