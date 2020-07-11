@@ -12,6 +12,7 @@ import { WeddingsComponent } from './weddings/weddings.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
+import { RoomsComponent } from './accomodation/rooms/rooms.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AuthComponent } from './auth/auth.component';
     WeddingsComponent,
     CelebrationsComponent,
     OffersComponent,
-    AuthComponent
+    AuthComponent,
+    RoomsComponent
   ],
   imports: [
     BrowserModule,
