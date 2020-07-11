@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material-module';
 import { AccomodationComponent } from './accomodation/accomodation.component';
+import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AccomodationComponent
+    AccomodationComponent,
+    FoodBeverageComponent
   ],
   imports: [
     BrowserModule,
