@@ -24,6 +24,7 @@ import { WesternWeddingsComponent } from './weddings/western-weddings/western-we
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { HeaderComponent } from './navigation/header/header.component';
     WesternWeddingsComponent,
     SigninComponent,
     SignupComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavListComponent
   ],
   imports: [
     BrowserModule,
