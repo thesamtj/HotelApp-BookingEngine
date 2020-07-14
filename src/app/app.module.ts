@@ -26,6 +26,7 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     SignupComponent,
     HeaderComponent,
     SidenavListComponent,
-    NavtabsComponent
+    NavtabsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
