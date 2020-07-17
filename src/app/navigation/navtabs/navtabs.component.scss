@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+// @import "~@angular/material/theming";
 
 @mixin navtabs-component-theme($my-theme) {
   $primary: map-get($my-theme, primary);
