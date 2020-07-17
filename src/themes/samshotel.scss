@@ -12,6 +12,4 @@ $my-theme: mat-light-theme($my-theme-primary, $my-theme-accent, $my-theme-warn);
 
 @include angular-material-theme($my-theme);
 
-.navtabs-container {
-  background-color: mat-color($my-theme-primary, lighter);
-}
+
