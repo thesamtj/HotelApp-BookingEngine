@@ -1,3 +1,14 @@
+@import "~@angular/material/theming";
+
+@mixin navtabs-component-theme($my-theme) {
+  $primary: map-get($my-theme, primary);
+  $accent: map-get($my-theme, accent);
+
+  .navtabs-container {
+    background-color: mat-color($my-theme-primary, lighter);
+  }
+}
+
 .toolbar-flex {
-    flex: 1 0.5 auto;
+  flex: 1 0.5 auto;
 }
