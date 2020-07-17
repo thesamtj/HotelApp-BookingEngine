@@ -10,21 +10,25 @@ import { WeddingsComponent } from './weddings/weddings.component';
 import { OffersComponent } from './offers/offers.component';
 import { HomeComponent } from './home/home.component';
 
-
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'accomodation', component: AccomodationComponent},
-  {path: 'celebrations', component: CelebrationsComponent},
-  {path: 'food-and-beverage', component: FoodAndBeverageComponent},
-  {path: 'lifestyle', component: LifestyleComponent},
-  {path: 'weddings', component: WeddingsComponent},
-  {path: 'offers', component: OffersComponent},
-  {path: 'signup', component: SignupComponent},
-  {path: 'signin', component: SigninComponent},
+  { path: '', component: HomeComponent },
+  { path: 'accomodation', component: AccomodationComponent },
+  { path: 'celebrations', component: CelebrationsComponent },
+  { path: 'food-and-beverage', component: FoodAndBeverageComponent },
+  {
+    path: 'foodandbeverage',
+    redirectTo: 'food-and-beverage',
+    pathMatch: 'full',
+  },
+  { path: 'lifestyle', component: LifestyleComponent },
+  { path: 'weddings', component: WeddingsComponent },
+  { path: 'offers', component: OffersComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'signin', component: SigninComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
