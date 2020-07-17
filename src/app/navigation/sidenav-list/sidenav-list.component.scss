@@ -1,3 +1,20 @@
+// @import "~@angular/material/theming";
+
+@mixin sidenav-component-theme($my-theme) {
+  $primary: map-get($my-theme, primary);
+  $accent: map-get($my-theme, accent);
+
+  .mat-list-option:hover,
+  .mat-list-option:focus,
+  .mat-nav-list .mat-list-item:hover,
+  .mat-nav-list .mat-list-item:focus,
+  .mat-action-list .mat-list-item:hover,
+  .mat-action-list .mat-list-item:focus {
+    background: mat-color($my-theme-primary, 300);
+    color: mat-color($my-theme-primary, 900);
+  }
+}
+
 .sidenav-list span {
-    padding-left: 8px;
+  padding-left: 8px;
 }
