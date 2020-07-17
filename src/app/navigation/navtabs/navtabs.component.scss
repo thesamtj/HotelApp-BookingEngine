@@ -5,7 +5,7 @@
   $accent: map-get($my-theme, accent);
 
   .navtabs-container {
-    background-color: mat-color($my-theme-primary, lighter);
+    background-color: mat-color($my-theme-primary, 500);
   }
 }
 

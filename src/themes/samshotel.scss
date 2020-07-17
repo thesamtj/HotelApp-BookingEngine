@@ -1,15 +1,17 @@
 // Include material themeing functions.
 @import "~@angular/material/theming";
+@import "./app/navigation/navtabs/navtabs.component.scss";
 
 // Include non-theme styles for core.
 @include mat-core();
 
-$my-theme-primary: mat-palette($mat-green, 700, 500, 900);
+$my-theme-primary: mat-palette($mat-green, 700, 300, 900);
 $my-theme-accent: mat-palette($mat-green, A100, 50, A400);
 $my-theme-warn: mat-palette($mat-red);
 
 $my-theme: mat-light-theme($my-theme-primary, $my-theme-accent, $my-theme-warn);
 
 @include angular-material-theme($my-theme);
+@include navtabs-component-theme($my-theme);
 
 
