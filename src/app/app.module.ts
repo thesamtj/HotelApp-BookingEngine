@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material-module';
+import { FlexLayoutModule } from "@angular/flex-layout";
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { FoodAndBeverageComponent } from './food-and-beverage/food-and-beverage.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
@@ -58,6 +59,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
+    FlexLayoutModule,
     BrowserAnimationsModule
   ],
   providers: [],
