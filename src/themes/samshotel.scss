@@ -34,3 +34,15 @@ $sams-typography: mat-typography-config(
   // Line-height must be unit-less fraction of the font-size.
   $input: mat-typography-level(inherit, 1.125, 400),
 );
+
+// Override typography CSS classes (e.g., mat-h1, mat-display-1, mat-typography, etc.).
+@include mat-base-typography($sams-typography);
+
+// Override typography for a specific Angular Material components.
+@include mat-checkbox-typography($sams-typography);
+
+// Override typography for all Angular Material, including mat-base-typography and all components.
+@include angular-material-typography($sams-typography);
+
+// Override the typography in the core CSS.
+@include mat-core($sams-typography);
